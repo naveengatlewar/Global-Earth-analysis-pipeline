@@ -27,13 +27,10 @@ The project follows the **Medallion Architecture** (Lakehouse Design Pattern):
 * **Dynamic Parameterization:** Utilized Data Factory expressions (`@addDays`, `@utcNow`) to dynamically pass date ranges to notebooks, enabling efficient incremental loading.
 * **Geospatial Enrichment:** Integrated external Python libraries to map latitude/longitude coordinates to specific country ISO codes for better reporting.
 * **Direct Lake Reporting:** Power BI connects directly to Delta Tables in OneLake, bypassing the need for import refreshes and enabling high-performance querying.
+* 
+### 🎥 Watch the Demo
+[![Watch the Video](https://www.linkedin.com/posts/naveen-g-071613147_dataanalytics-powerbi-excel-activity-7381058709642203136-JVZz?utm_source=share&utm_medium=member_desktop&rcm=ACoAACOCHZUBg3T82oYS0Y_WtneNbJ_xYZO0-fg)](https://www.linkedin.com/posts/naveen-g-071613147_dataengineering-microsoftfabric-dp700-activity-7422184414652227584-b6qV?utm_source=share&utm_medium=member_desktop&rcm=ACoAACOCHZUBg3T82oYS0Y_WtneNbJ_xYZO0-fg)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_Me-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/posts/naveen-g-071613147_dataengineering-microsoftfabric-dp700-activity-7422184414652227584-b6qV?utm_source=share&utm_medium=member_desktop&rcm=ACoAACOCHZUBg3T82oYS0Y_WtneNbJ_xYZO0-fg)
+> Click the image above to watch the full end-to-end demo on LinkedIn!
 
-## 📂 Repository Structure
-```bash
-├── Notebooks/
-│   ├── 01_Bronze_Ingestion.ipynb   # Fetches API data -> JSON
-│   ├── 02_Silver_Transformation.ipynb # Flattens JSON -> Delta Table
-│   └── 03_Gold_Enrichment.ipynb    # Adds Country Codes -> Gold Delta Table
-└── README.md
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect_with_Me-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/naveen-g-071613147/)
